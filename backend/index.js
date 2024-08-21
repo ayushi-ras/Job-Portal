@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://fluffy-travesseiro-ea36c0.netlify.app',
+    origin:'https://job-portal-frontend-6nym.onrender.com',
     credentials:true
 }
 
